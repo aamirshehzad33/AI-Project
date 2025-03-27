@@ -4,6 +4,10 @@ This repository contains AI projects spanning multiple areas of machine learning
 
 You can find a list of most of the posts I have made in this file.
 
+## OverView
+
+AI projects spanning machine learning, deep learning, and data science. It includes featured projects on CNNs, transfer learning, NLP, fraud detection, recommendation systems, time series forecasting, and distributed training. Each project is briefly described with implementation details and relevant blog links, making it a valuable resource for learning and exploration.
+
 
 ## Featured Projects
 
