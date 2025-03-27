@@ -1,44 +1,90 @@
-[![Issues](https://img.shields.io/github/issues/miguelgfierro/ai_projects.svg)](https://github.com/miguelgfierro/ai_projects/issues)
-[![Pull requests](https://img.shields.io/github/issues-pr/miguelgfierro/ai_projects.svg)](https://github.com/miguelgfierro/ai_projects/pulls)
-[![Commits](https://img.shields.io/github/commit-activity/y/miguelgfierro/ai_projects.svg?color=success)](https://github.com/miguelgfierro/ai_projects/commits/master)
-[![Last commit](https://img.shields.io/github/last-commit/miguelgfierro/ai_projects.svg)](https://github.com/miguelgfierro/ai_projects/commits/master)
+## AI Projects
 
-[![Linkedin](https://img.shields.io/badge/Linkedin-Follow%20Miguel-blue?logo=linkedin)](https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=miguelgfierro)
-[![Blog](https://img.shields.io/badge/Blog-Visit%20miguelgfierro.com-blue.svg)](https://miguelgfierro.com?utm_source=github&utm_medium=profile&utm_campaign=ai_projects)
+This repository contains AI projects spanning multiple areas of machine learning. Many of these projects have associated articles on the blog sciblog.
+
+You can find a list of most of the posts I have made in this file.
 
 
-# AI projects
+## Featured Projects
 
-This repo contains AI projects in multiple areas of machine learning. Many of these projects have associated articles on the blog [sciblog](https://miguelgfierro.com/).
 
-You can find a list of most the post I made in [this file](miguelgfierro_posts.txt).
+### Introduction to Convolutional Neural Networks
 
-## Featured projects
+In this project, we explain what a convolution is and how to compute a CNN using the MXNet deep learning library with the MNIST character recognition dataset. Read the blog entry here.
 
-* [Introduction to Convolutional Neural Networks](A_Gentle_Introduction_to_CNN/Intro_CNN.ipynb): In this project we explain what is a convolution and how to compute a CNN using MXNet deep learning library with the MNIST character recognition dataset. Here the [blog entry](https://miguelgfierro.com/blog/2016/a-gentle-introduction-to-convolutional-neural-networks/?utm_source=github&utm_medium=repo-entry&utm_campaign=cnn-intro).
 
-* [Introduction to Transfer Learning](A_Gentle_Introduction_to_Transfer_Learning/Intro_Transfer_Learning.ipynb): In this project we use PyTorch to explain the basic methodologies of transfer learning (finetuning and freezing) and analyze in which case is better to use each of them. Here the [blog entry](https://miguelgfierro.com/blog/2017/a-gentle-introduction-to-transfer-learning-for-image-classification/?utm_source=github&utm_medium=repo-entry&utm_campaign=transfer-learning).
+### Introduction to Transfer Learning
 
-* [Cloud-Scale Text Classification With Convolutional Neural Networks](Cloud-Scale_Text_Classification_with_CNNs_on_Azure): In these notebooks we show how to perform character level convolutions for sentiment analysis using Char-CNN and VDCNN models. Here the [blog entry](https://miguelgfierro.com/blog/2019/cloud-scale-text-classification-with-convolutional-neural-networks/?utm_source=github&utm_medium=repo-entry&utm_campaign=charcnn).
+Using PyTorch, this project explains the basic methodologies of transfer learning (finetuning and freezing) and analyzes in which cases each method is preferable. Read the blog entry here.
 
-* [Introduction to Data Generation](Data_Generation/data_generation.ipynb): In this notebook we show a number of simple techniques to generate new data in images, text and time series. Here the [blog entry](https://miguelgfierro.com/blog/2019/revisiting-the-revisit-of-the-unreasonable-effectiveness-of-data/?utm_source=github&utm_medium=repo-entry&utm_campaign=data-gen).
 
-* [Introduction to Dimensionality Reduction with t-SNE](Dimensionality_Reduction_with_TSNE/dimensionality_reduction.ipynb): In this project we use sklearn and CUDA to show an example of t-SNE algorithm. We use a CNN to generate high-dimensional features from images and then show how they can be projected and visualized into a 2-dimensional space. Here the [blog entry](https://miguelgfierro.com/blog/2018/a-gentle-explanation-of-dimensionality-reduction-with-t-sne/?utm_source=github&utm_medium=repo-entry&utm_campaign=tsne).
+### Cloud-Scale Text Classification With Convolutional Neural Networks
 
-* [Introduction to Distributed Training with DeepSpeed](Distributed_Training_with_DeepSpeed): In this project we show how to use DeepSpeed to perform distributed training with PyTorch. Here the [blog entry](https://miguelgfierro.com/blog/2022/a-gentle-introduction-to-distributed-training-with-deepspeed/?utm_source=github&utm_medium=repo-entry&utm_campaign=deepspeed).
+These notebooks demonstrate how to perform character-level convolutions for sentiment analysis using Char-CNN and VDCNN models. Read the blog entry here.
 
-* [Introduction to Fraud Detection](Intro_to_Fraud_Detection/fraud_detection.ipynb): In this notebook we design a real-time fraud detection model using LightGBM on GPU (also available on CPU). The model is then operationalized through an API using Flask and websockets. Here the [blog entry](https://github.com/miguelgfierro/ai_projects/blob/master/Intro_to_Fraud_Detection/fraud_detection.ipynb?utm_source=github&utm_medium=repo-entry&utm_campaign=fraud).
 
-* [Introduction to Machine Learning API](Intro_to_Machine_Learning_API/Intro_to_Cloud_ML_with_Flask_and_CNTK.ipynb): In this notebook we show how to create an image classification API. The system works with a pretrained CNN using CNTK deep learning library. The API is setup with Flask for managing the end point services and CherryPy as the backend server. Here the [blog entry](https://miguelgfierro.com/blog/2017/how-to-deploy-an-image-classification-api-based-on-deep-learning/?utm_source=github&utm_medium=repo-entry&utm_campaign=ml-api).
+### Introduction to Data Generation
 
-* [Introduction to Recommendation Systems with Deep Autoencoders](Intro_to_Recommendation_Systems/Intro_Recommender.ipynb): In this notebook we make an overview to recommendation systems and implement a recommendation API using a deep autoencoder with PyTorch and the Netflix dataset. Here the [blog entry](https://miguelgfierro.com/blog/2018/introduction-to-recommendation-systems-with-deep-autoencoders/?utm_source=github&utm_medium=repo-entry&utm_campaign=reco-deep-autoencoder).
 
-* [Introduction to Natural Language Processing with fastText](Intro_to_NLP_with_fastText/Intro_to_NLP.ipynb): In this project we show how to implement text classification, sentiment analysis and word embedding using the library fastText. We also show a way to represent the word embeddings in a reduced space using t-SNE algorithm. Here the [blog entry](https://miguelgfierro.com/blog/2017/a-gentle-introduction-to-text-classification-and-sentiment-analysis/?utm_source=github&utm_medium=repo-entry&utm_campaign=fasttext).
+This notebook presents simple techniques to generate new data in images, text, and time series. Read the blog entry here.
 
-* [Time Series Forecasting of Stock Price](Time_Series_Forecasting_of_Stock_Price/Stock_Price_Forecasting.ipynb): In this tutorial we show how to implement a simple stock forecasting model using different variants of LSTMs and Keras. Here the [blog entry](https://miguelgfierro.com/blog/2018/stock-price-prediction-with-lstms/?utm_source=github&utm_medium=repo-entry&utm_campaign=stock-forecasting).
 
-* [Visualization of Football Matches with Datashader](Visualization_of_Football_Matches/visualization_football.ipynb): In this notebook we explain how to visualize all matches in the UEFA Champions League since its beginning using the python library datashader. To create the project we use the Lean Startup method. Here the [blog entry](https://miguelgfierro.com/blog/2016/how-to-develop-a-data-science-project-using-the-lean-startup-method/?utm_source=github&utm_medium=repo-entry&utm_campaign=datashader).
+### Introduction to Dimensionality Reduction with t-SNE
 
-## Machine Learning reference architecture
+
+Using sklearn and CUDA, this project showcases an example of the t-SNE algorithm. A CNN generates high-dimensional features from images, which are then projected and visualized in a 2D space. Read the blog entry here.
+
+
+### Introduction to Distributed Training with DeepSpeed
+
+
+This project demonstrates how to use DeepSpeed to perform distributed training with PyTorch. Read the blog entry here.
+
+
+### Introduction to Fraud Detection
+
+A real-time fraud detection model is designed using LightGBM on GPU (also available on CPU). The model is then operationalized through an API using Flask and WebSockets. Read the blog entry here.
+
+
+
+### Introduction to Machine Learning API
+
+
+This notebook demonstrates how to create an image classification API. The system utilizes a pretrained CNN with the CNTK deep learning library. Flask is used to manage endpoint services, while CherryPy serves as the backend server. Read the blog entry here.
+
+
+### Introduction to Recommendation Systems with Deep Autoencoders
+
+
+An overview of recommendation systems is provided, along with the implementation of a recommendation API using a deep autoencoder with PyTorch and the Netflix dataset. Read the blog entry here.
+
+### Introduction to Natural Language Processing with fastText
+
+
+This project demonstrates text classification, sentiment analysis, and word embedding using the fastText library. Additionally, it includes a method for representing word embeddings in a reduced space using the t-SNE algorithm. Read the blog entry here.
+
+
+### Time Series Forecasting of Stock Price
+
+
+A simple stock forecasting model is implemented using different variants of LSTMs and Keras. Read the blog entry here.
+
+
+### Visualization of Football Matches with Datashader
+
+
+This notebook explains how to visualize all UEFA Champions League matches since its inception using the Python library Datashader. The Lean Startup method is applied to create this project. Read the blog entry here.
+
+
+### Machine Learning Reference Architecture
+
+This repository serves as a reference for various machine learning architectures and implementations, covering different use cases and techniques in AI and deep learning.
 
 ![](./ML_reference_architecture.svg)
+
+## ScreenShots
+
+![screencapture-miguelgfierro-2025-03-27-14_40_55](https://github.com/user-attachments/assets/de26e228-e7eb-4995-bd5e-3110c245fa1a)
+
+![screencapture-miguelgfierro-blog-2023-reverse-learning-how-to-learn-the-ai-used-today-in-the-industry-2025-03-27-14_45_04](https://github.com/user-attachments/assets/1f9ae35e-66a4-4241-86ed-a4443c49751e)
+
